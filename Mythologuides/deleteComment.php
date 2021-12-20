@@ -1,8 +1,8 @@
 <?php 
 // header("Access-Control-Allow-Origin: *");
 // header("Content-Type: application/json");
-include_once "dbLauncher.php";
-include_once "dbManager.php";
+include './assets/dB/dbLauncher.php';
+include './assets/dB/dbManager.php';
 
 // Supprime tous les commentaires d'un user à améliorer
 // deleteComment($_GET['delete'], $db);

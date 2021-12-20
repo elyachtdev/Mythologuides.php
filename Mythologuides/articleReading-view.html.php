@@ -1,7 +1,7 @@
 <?php
 session_start();
-    include './dbLauncher.php';
-    include './dbManager.php';
+    include './assets/dB/dbManager.php';
+    include './assets/dB/dbManager.php';
     $data=oneArticle($_GET['id'], $db);
     $dataPost=selectPostUser($_GET['id'], $db);
     $dataComment=selectComment($_GET['id'], $db);

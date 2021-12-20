@@ -1,7 +1,7 @@
 <?php
 session_start();
-include './dbLauncher.php';
-include './dbManager.php';
+include './assets/dB/dbLauncher.php';
+include './assets/dB/dbManager.php';
 $data=allArticle($db);
 ?>
 <!DOCTYPE html>

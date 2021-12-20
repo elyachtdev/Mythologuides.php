@@ -1,7 +1,7 @@
 <?php
 session_start();
-include_once "dbLauncher.php";
-include_once "dbManager.php";
+include './assets/dB/dbLauncher.php';
+include './assets/dB/dbManager.php';
 
 if (!empty($_POST['pseudo']) && !empty($_POST['password']) && !empty($_POST['mail']) && !empty($_POST['password2'])) {
     $user = selectUser($_POST['pseudo'], $db);

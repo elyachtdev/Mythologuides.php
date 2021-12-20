@@ -1,8 +1,8 @@
 <?php
 session_start();
 if(isset($_SESSION['id']) && $_SESSION['role'] == 1){
-    include './dbLauncher.php';
-    include './dbManager.php';
+    include './assets/dB/dbLauncher.php';
+    include './assets/dB/dbManager.php';
     if (!empty($_GET['error'])) {
         $error = explode("-", $_GET['error']);
     }

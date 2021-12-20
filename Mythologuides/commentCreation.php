@@ -1,8 +1,8 @@
 <?php
 session_start();
 if(isset($_COOKIE['id']) || isset($_SESSION['id'])){
-    include './dbLauncher.php';
-    include './dbManager.php';
+    include './assets/dB/dbLauncher.php';
+    include './assets/dB/dbManager.php';
     $getId = htmlspecialchars($_GET['id']);
     $data = selectArticle($_POST['comText'], $db);
     if (empty($_POST['comText'])) {
