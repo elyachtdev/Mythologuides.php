@@ -4,7 +4,7 @@
 <p>This is my first public repository. There is still a lot of work to be done on it.</p> 
 <p>It was a PHP Test for my developper class at ADRAR in Montpellier (France).</p>
 <strong>It's kinda messy but I'll improve it over time.</strong>
-<p>There are still a lot of parts are in French, so let me know if you need any translation, i'll push a translated version.</p>
+<p>There are still a lot of parts which are in French, so let me know if you need any translation, i'll push a translated version.</p>
 <br>
 <h4>elyachtdev</h4>
 <br>
