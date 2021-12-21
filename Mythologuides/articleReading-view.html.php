@@ -1,6 +1,6 @@
 <?php
 session_start();
-    include './assets/dB/dbManager.php';
+    include './assets/dB/dbLauncher.php';
     include './assets/dB/dbManager.php';
     $data=oneArticle($_GET['id'], $db);
     $dataPost=selectPostUser($_GET['id'], $db);
